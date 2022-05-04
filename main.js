@@ -12,7 +12,7 @@ function take_snapshot(){
     });
 }
 console.log("ml5 version",ml5.version);
-classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/_9oTXo3Cf/model.json',modelLoaded);
+classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/8jSGvKO6U/',modelLoaded);
 function modelLoaded(){
     console.log('model loading');
 }
